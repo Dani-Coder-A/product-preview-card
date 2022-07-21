@@ -154,3 +154,36 @@ main {
 }
 
 }
+
+/***** Desktop Styles *****/
+
+@media only screen and (min-width: 1000px) {
+
+body {
+    margin: 100px 0px;
+}
+
+main {
+    max-width: 60%;
+}
+
+.product-container {
+    width: 100%;
+}
+
+.product-image {
+    background: url(../images/image-product-desktop.jpg) center no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+}
+
+.product-info {
+    margin: 0px;
+    padding: 20px;
+    width: 50%; 
+}
+    
+}
